@@ -1,0 +1,117 @@
+
+*{
+  margin: 0;
+  padding: 0;
+font-family: 'poppins', sans-serif;
+box-sizing: border-box;
+}
+
+.container{
+  min-height:100vh;
+  width: 100vw;
+  background-image: url(photo/bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding: 0 8%;
+}
+.logo{
+width: 170px;
+padding: 12px;
+cursor: pointer;
+
+}
+
+.content{
+  top: 38%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.content h1 {
+ font-size: 60px;
+ font-weight: 600;
+
+}
+.content h1 span{
+color: #ff3753;
+
+
+}
+
+.content h1 span1{
+color: yellow;
+
+
+}
+.content h1 span2{
+    color: silver;
+    
+    
+    }
+.content button{
+   background: transparent;
+   border: 2px solid #fff;
+   outline: none;
+   padding: 10px 18px;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+   cursor: pointer;
+
+    }
+
+.content button img{
+  padding: 0 1px;
+  width: 17px;
+}
+.launch-time{
+display: flex;
+}
+.launch-time div {
+
+flex-basis: 100px;
+
+}
+.launch-time div p{
+font-size: 50px;
+margin-bottom: -10x;
+
+
+}
+.gif{
+width: 200px;
+position: absolute;
+right: 5%;
+bottom: 110%;
+animation:gif 6s linear infinite ;
+}
+@keyframes gif{
+0%{
+    bottom: 0;
+    opacity: 0;
+}
+100%{
+bottom: 105;
+opacity: 1;
+
+}}
+.gif1{
+    width: 200px;
+    position: absolute;
+    right: 12%;
+    bottom: 110%;
+    animation:gif 6s linear infinite ;
+    }
+    @keyframes gif{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+    bottom: 105;
+    opacity: 1;
+    
+    }
+    }
